@@ -1,0 +1,41 @@
+5-a) API rest es una arquitectuta web basada completamente en los protocolo http, esto quiere decir que la informacion que
+le pasemos solo existira cuando se ejecute la consulta, una vez que esta termina los datos desaparecen, a esto se le 
+llama StateLess. API rest se ha convertido en una de las arquitecturas mas usadas para el desarrollo de software. Se utilizan
+los verbos HTTP GET, POST, PUT y DELETE para  el acceso, creación, actualización y eliminacion de recursos.
+Entre sus ventajas destacan que permite a terceros utilizar información a la que no podían acceder, otra de las ventajas que 
+nos brinda API REST es que se puede desarrollar en cualquier lenguaje, esto hace que sea super versatil y que todos
+puedan trabajar con ella. API ademas, permite trabajar de forma paralalela a los trabajadores de back end y front end, lo
+que genera un trabajo mucho mas agil y eficiente.
+
+b) Si quisieramos implementar API REST en el sistema anterior, podriamos hacerlo de muchas maneras. como por ejemplo, 
+poder crear una lista de comentarios de los distintos beneficios que se pueden obtener a traves de los kilometros obtenidos.
+Los usuarios comentarian acerca de que les parecio el beneficio obtenido en relacion a la cantidad-calidad del mismo, una 
+vez que lo hagan, los postearian y quedaria cargado en una nueva seccion que podriamos crear que se refiera a los beneficios
+disponibles y sus respectivas reseñas, las cuales se cargarian por medio de REST y JS, haciendo que sea una experiencia de 
+usuario aun mejor.
+
+C) Describa y de algunos ejemplos de cómo se utilizan siguientes conceptos:
+
+Server Side Rendering
+
+El server side rendering es una tecnologia para el desarrollo de software, esta se caracteriza por almacenar todos los recursos
+en un servidor y luego, cuando un usuario envia una solicitud de la informacion, enviar un documento HTML donde se encuentra
+TODA la informacion disponible y mostrarsela al usuario, estas tecnologias son usadas em paginas estaticas que no poseen mucha
+interaccion.
+
+HTTP Status codes
+
+Los códigos de estado HTTP describen de forma abreviada la respuesta HTTP, es decir, son codigos que nos informan cual fue
+la repuesta que nos devolvio el servidor luego de que hicieramos la consulta, estos son:
+
+1xx Respuestas informativas
+2xx Peticiones correctas
+3xx Redirecciones
+4xx Errores del cliente
+5xx Errores de servidor
+
+Sesiones de usuarios
+Las sesiones de usuarios son pequeñas porciones de informacion que se guardan en los servidores para corroborar que un 
+usuario siga o no en nuestra pagina web, tambien se utilizar para chequear que permisos poseen ciertos usuarios y que
+beneficios tienen a travez de de esos permisos, como lo pueden ser los llamados ADMINISTRADORES. Existen distintos tipos,
+algunas son las Cookies y las variables $_SESSION en PHP,
